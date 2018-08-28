@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Exousia Door Ministries | Contact</title>
+
+    <!-- ================================== Link Stylesheets & Scripts ====================== -->
+    <link rel="shortcut icon" href="https://pstk-integration-logos.s3-eu-west-1.amazonaws.com/b9d33af0-2eae-4fc3-8392-39b635f635ac"
+        type="image/x-icon">
+
+    <script src="./libraries/pace.js/pace.min.js"></script>
+    <link rel="stylesheet" href="./libraries/pace.js/pace-theme-flash.css">
+    <link rel="stylesheet" href="./libraries/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./libraries/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./libraries/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./libraries/bootstrap/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="./libraries/animate.css/animate.css">
+    <link rel="stylesheet" href="./libraries/uikit/uikit.min.css">
+    <link href="https://unpkg.com/ionicons@4.4.1/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ============================= Main Section ============================ -->
+    <section class="main-section">
+
+
+        <!--=========================================== Nav Bar ============================= -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand bold-heading" href="./index.html">Exousia Door Ministry</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon ion-ios-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse body-text bold-body justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item pl-4">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item pl-4">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item pl-4">
+                        <a class="nav-link" href="/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item pl-4">
+                        <a class="nav-link" href="/exousiatv.html">Exousia TV</a>
+                    </li>
+                    <li class="nav-item pl-4">
+                        <a class="nav-link" href="/give.html">Give</a>
+                    </li>
+                    <li class="nav-item pl-4 active">
+                        <a class="nav-link" href="/contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item pl-4">
+                        <a class="nav-link" href="/faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- ============================================= End : Nav Bar ================================== -->
+
+        <!--========================================== Jumbotron with slides =============================== -->
+        <section class="jumbotron text-center text-light" uk-parallax="bgy: -200">
+            <div class="overlay-linear-red d-flex justify-content-center align-items-center">
+                <div class="container d-flex justify-content-center align-items-center jumbo-slides">
+
+                    <div id="carouselExample" class="carousel slide pl-3 pr-3 pb-2" data-ride="carousel" data-interval="6000" data-pause="false">
+
+                        <div class="carousel-inner d-flex justify-content-center align-items-center p-3">
+
+                            <div class="pl-1 pr-1 carousel-item active">
+                                <div class="slide animated fadeInDown pt-5">
+                                    <h1 class="regular-heading mt-3 display-4 animated fadeInDown delay-1s">Contact Us</h1>
+                                    <p class="bold-body mt-3 animated fadeInDown delay-2s">Want to send us a greeting, go
+                                        ahead!, we are always happy to happy to hear from you.</p>
+                                </div>
+                            </div>
+
+                            <div class="pl-1 pr-1 carousel-item">
+                                <div class="slide animated fadeInDown pt-5">
+                                    <h1 class="regular-heading mt-3 display-4 animated fadeInDown delay-1s">Contact Us</h1>
+                                    <p class="bold-body mt-3 animated fadeInDown delay-2s">Do you want to visit E.D.E.M and
+                                        need more information?</p>
+                                </div>
+                            </div>
+
+                            <div class="pl-1 pr-1 carousel-item">
+                                <div class="slide animated fadeInDown pt-5">
+                                    <h1 class="regular-heading mt-3 display-4 animated fadeInDown delay-1s">Contact Us</h1>
+                                    <p class="bold-body mt-3 animated fadeInDown delay-2s">Are you an international resident
+                                        and need to make some inquiries?, we are always at your service</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <!-- ===================================== Jumbotron with slide : end ===================================== -->
+
+        <!--========================================== Welcome Message and Short Brief ============================= -->
+        <section class="section message">
+            <div class="container d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
+                <h1 class="bold-heading display-5 text-center part">Hello!</h1>
+                <p class="regular-body text-center part">What Do You Need? Please Tell Us!</p>
+
+                <div class="d-flex flex-column justify-content-center align-items-center text-dark pt-3 part">
+
+                    <form action="./php/mail.php" method="POST" class="pb-5">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="first_name">Full Name</label>
+                                <input class="form-control mb-3" name="Full_Name" id="first_name" type="text" placeholder="Full Name">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="email_address">E-Mail Address</label>
+                                <input class="form-control mb-3" name="Email_Address" id="email_address" type="text" placeholder="eg. example@gmail.com">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="phone_number">Phone Number</label>
+                                <input class="form-control mb-3" name="Telephone_Number" id="phone_number" type="text" placeholder="Phone No eg. +234 123 456 7890">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="nationality">Nationality</label>
+                                <input class="form-control mb-3" name="Nationality" id="nationality" type="text" placeholder="Nationality eg. Nigerian">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="member">Member or Visitor</label>
+                                <input class="form-control mb-3" name="Member" id="member" type="text" placeholder="Yes / No">
+                            </div>
+                            <div class="col-sm-12">
+                                <label for="subject">Subject</label>
+                                <input class="form-control mb-3" name="Subject" id="subject" type="text" placeholder="Reason for contacting us">
+                            </div>
+                            <div class="col-sm-12">
+                                <label for="meassage">Message</label>
+                                <textarea class="form-control mb-3" name="Your_Message" id="meassage" rows="5" placeholder="Tell us what you need"></textarea>
+                            </div>
+                            <div class="col-sm-4">
+                                <button type="submit" class="btn btn-success">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center text-dark pt-3 part">
+                    <div class="bold-body">
+                        <p class="regular-body">We recommend checking of <b><a class="text-success" href="./faq.html">FAQ</a></b>
+                            page to see if your questions have been answered</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--========================================== Welcome Message and Short Brief : end ============================= -->
+
+        <!-- ================================================== Footer ====================================================== -->
+        <footer class="section footer bg-linear-blue text-muted row align-items-center">
+            <div class="col row align-items-center overlay-light pr-3 pl-3">
+                <div class="col container row align-items-start pt-5 pb-5">
+
+                    <div class="col-sm col-md col-lg mt-3">
+                        <h6 class="bold-heading">Exousia Door Evangel Ministries</h6>
+                        <p>Preaching the gospel, Raising Kingdom Stars.</p>
+
+                        <div class="d-flex align-items-center social-link">
+                            <a href="https://www.instagram.com/exousiadoor1/" class="text-muted pr-3"><i class="icon ion-logo-instagram"></i></a>
+                            <a href="https://web.facebook.com/ExousiaDoorEvangelMinistriesInc/" class="text-muted pr-3"><i
+                                    class="icon ion-logo-facebook"></i></a>
+                            <a href="https://twitter.com/ExousiaMedia" class="text-muted pr-3"><i class="icon ion-logo-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCQtc74M-Rw99BcSFQ7cGNaw" class="text-muted pr-3"><i
+                                    class="icon ion-logo-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm col-md col-lg mt-3 text-muted">
+                        <div class="text-muted">
+                            <h6 class="bold-heading">Location</h6>
+                            <p class="regular-body">
+                                Off Damboa Road,<br/> Behind NNPC Fueling Depot,<br/> Maiduguri, Borno State <br/>Nigeria.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm col-md col-lg mt-3 text-muted">
+                        <ul class="link-list">
+                            <li>
+                                <h6 class="bold-heading">Contact</h6>
+                            </li>
+                            <li><a href="#" class="text-muted">E-Mail : info@exousiaministry.org</a></li>
+                            <li><a href="tel:07035996162" class="text-muted">Telephone Line : 0703 599 6162</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!-- ================================================== Footer : end ====================================================== -->
+        <footer class="section bg-dark text-light row align-items-center justify-content-center p-5">
+            <div class="col row align-items-center justify-content-center overlay-light pt-4 pr-3 pl-3">
+                <p class="bold-text">2018&copy; <a class="text-light" href="./index.html"><b>Exousia Door Evangel Ministries</b></a>.
+                    All Rights Reserved</p>
+            </div>
+        </footer>
+
+    </section>
+
+    <!-- ================================== Script Tags =========================== -->
+    <script src="./libraries/bootstrap/jquery-3.3.1.min.js"></script>
+    <script src="./libraries/bootstrap/jquery-ui.min.js"></script>
+    <script src="./libraries/bootstrap/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="./libraries/uikit/uikit.min.js"></script>
+    <script src="./libraries/uikit/uikit-icons.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

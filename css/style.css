@@ -1,0 +1,303 @@
+/* Fonts Import */
+
+/*==================== Heading Text ====================*/
+@import url("https://fonts.googleapis.com/css?family=BioRhyme:400,700");
+
+/*==================== Body Text ====================*/
+@import url("https://fonts.googleapis.com/css?family=Cabin:300:400,500");
+
+/*==================== Button Text ====================*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,500");
+
+/*=================== Variables ====================*/
+:root {
+  --zero-padding: 0;
+  --zero-margin: 0;
+  --full-width: 100%;
+  --full-height: 100%;
+
+  --main-border-radius: none;
+  --dark-purple-color: #331832;
+  --dogwood-rose-color: #d81e5b;
+  --red-orange-color: #f0544f;
+  --colombia-blue-color: #c6d8d3;
+  --papaya-whip-color: #fdf0d5;
+
+  --overlay-dark: rgba(0, 0, 0, 0.8);
+  --overlay-rose: rgba(216, 30, 92, 0.8);
+  --overlay-light: rgba(180, 179, 179, 0.2);
+  --overlay-linear-red: linear-gradient(
+    to right,
+    rgba(255, 65, 109, 0.8),
+    rgba(255, 72, 40, 0.8)
+  );
+  --overlay-linear-blue: linear-gradient(
+    to right,
+    rgba(65, 132, 255, 0.8),
+    rgba(40, 212, 255, 0.8)
+  );
+
+  --linear-orange: linear-gradient(to right, #f5af19, var(--red-orange-color));
+  --linear-green: linear-gradient(to right, #add100, #7b920a);
+  --linear-purple: linear-gradient(to right, #ff0099, var(--dark-purple-color));
+  --linear-blue: linear-gradient(to right, #7f7fd5, #86a8e7, #7575ff);
+
+  --heading-text: "BioRhyme";
+  --regular-heading: 400;
+  --bold-heading: 700;
+
+  --body-text: "Nunito";
+  --regular-body: 500;
+  --bold-body: 600;
+}
+
+.bg-dark-purple {
+  background-color: var(--dark-purple-color);
+}
+.bg-dogwood-rose {
+  background-color: var(--dogwood-rose-color);
+}
+.bg-red-orange {
+  background-color: var(--red-orange-color);
+}
+.bg-colombia-blue {
+  background-color: var(--colombia-blue-color);
+}
+.bg-papaya-whip {
+  background-color: var(--papaya-whip-color);
+}
+.bg-linear-orange {
+  background: var(--linear-orange);
+}
+.bg-linear-green {
+  background: var(--linear-green);
+}
+.bg-linear-purple {
+  background: var(--linear-purple);
+}
+.bg-linear-blue {
+  background: var(--linear-blue);
+}
+.bg-dark {
+  background: rgb(87, 87, 87);
+}
+
+/*
+    COMPONENTS
+    0. HTML, Body, and Main Section
+    1. Fonts
+    2. Nav & NavBar
+    3. Jumbotron
+    4. Overlay
+    5. Button
+    6. Caurosel
+    7. Form & Form Groups
+    8. Progress
+
+    UTILITIES
+    1. Color -> Setting Color Scheme
+    2. Background Color -> Setting Color Scheme
+    3. Icons -> From GitHub's Octicons & Ionicons
+
+    OTHER STYLING HANDLED WITH BOOTSTRAP 4.1.1!
+*/
+
+/*====================== HTML, Body & Main Section =======================*/
+html,
+body,
+.main-section {
+  width: var(--full-width);
+  height: var(--full-height);
+  margin: var(--zero-margin);
+  padding: var(--zero-padding);
+}
+
+/*============================== Fonts ======================================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-text) !important;
+}
+
+p,
+a,
+q,
+cite,
+ul,
+ol,
+li,
+article,
+aside,
+dd,
+table,
+td,
+tt,
+thead,
+figure,
+figcaption,
+input,
+label,
+textarea {
+  font-family: var(--body-text) !important;
+  font-size: 13px !important;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none !important;
+}
+
+ul li {
+  list-style-type: none;
+}
+ol li {
+  list-style-type: decimal-leading-zero;
+}
+
+.bold-heading {
+  font-weight: var(--bold-heading);
+}
+.regular-heading {
+  font-weight: var(--regular-heading);
+}
+.bold-body {
+  font-weight: var(--bold-body);
+}
+.regular-body {
+  font-weight: var(--regular-body);
+}
+
+/*======================================= Nav & NavBar ================================*/
+.dropdown-menu {
+  border: none !important;
+  border-radius: var(--main-border-radius) !important;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: none !important;
+  outline: none !important;
+}
+.icon {
+  font-size: 30px;
+}
+
+/*================================ Jumbotron ================================*/
+.jumbotron {
+  width: var(--full-width);
+  height: var(--full-height);
+  margin: var(--zero-margin) !important;
+  padding: var(--zero-padding) !important;
+  border: none !important;
+  border-radius: var(--main-border-radius) !important;
+  background-image: url("https://scontent.flos5-1.fna.fbcdn.net/v/t31.0-8/22499006_1711248832233392_8132665442572220634_o.png?_nc_cat=0&oh=cd0a91f88b98ae50648bcebd04a9c2c8&oe=5C36F8CF");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.section {
+  width: var(--full-width);
+  margin: var(--zero-margin) !important;
+  padding: var(--zero-padding) !important;
+  border: none !important;
+  border-radius: var(--main-border-radius) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.overlay-dark {
+  width: var(--full-width);
+  height: var(--full-height);
+  margin: var(--zero-margin);
+  padding: var(--zero-padding);
+  background-color: var(--overlay-dark);
+}
+.overlay-light {
+  width: var(--full-width);
+  height: var(--full-height);
+  margin: var(--zero-margin);
+  padding: var(--zero-padding);
+  background-color: var(--overlay-light);
+}
+.overlay-rose {
+  width: var(--full-width);
+  height: var(--full-height);
+  margin: var(--zero-margin);
+  padding: var(--zero-padding);
+  background-color: var(--overlay-rose);
+}
+.overlay-linear-red {
+  width: var(--full-width);
+  height: var(--full-height);
+  margin: var(--zero-margin);
+  padding: var(--zero-padding);
+  background: var(--overlay-linear-red);
+}
+.overlay-linear-blue {
+  width: var(--full-width);
+  height: var(--full-height);
+  margin: var(--zero-margin);
+  padding: var(--zero-padding);
+  background: var(--overlay-linear-blue);
+}
+
+/*================================== Buttons ========================*/
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus {
+  font-family: "Nunito" !important;
+  border: none !important;
+  border-radius: var(--main-border-radius) !important;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+/*============================================= Caurosel Images ================================*/
+.carousel-item img {
+  width: 1500px;
+  height: 433.75px;
+  object-fit: contain;
+}
+.video-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/*==================================== Tables ==============================*/
+.table {
+  overflow-x: scroll;
+}
+/*==================================== List ================================*/
+.list-group {
+  border-radius: var(--main-border-radius) !important;
+}
+
+/*==================================== Progress ================================*/
+.progress {
+  font-family: var(--body-text) !important;
+}
+
+/*================================= Footer ==================================*/
+.footer {
+  background-image: url(../assets/img/pattern-2.png);
+}
+.social-link i {
+  font-size: 16px !important;
+}
