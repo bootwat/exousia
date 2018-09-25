@@ -1,13 +1,13 @@
 /* Fonts Import */
 
 /*==================== Heading Text ====================*/
-@import url("https://fonts.googleapis.com/css?family=BioRhyme:400,700");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700");
 
 /*==================== Body Text ====================*/
 @import url("https://fonts.googleapis.com/css?family=Cabin:300:400,500");
 
 /*==================== Button Text ====================*/
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,500");
+@import url("https://fonts.googleapis.com/css?family=Karla:400,500");
 
 /*=================== Variables ====================*/
 :root {
@@ -42,13 +42,13 @@
   --linear-purple: linear-gradient(to right, #ff0099, var(--dark-purple-color));
   --linear-blue: linear-gradient(to right, #7f7fd5, #86a8e7, #7575ff);
 
-  --heading-text: "BioRhyme";
+  --heading-text: "Comfortaa";
   --regular-heading: 400;
   --bold-heading: 700;
 
-  --body-text: "Nunito";
-  --regular-body: 500;
-  --bold-body: 600;
+  --body-text: "Karla";
+  --regular-body: 400;
+  --bold-body: 500;
 }
 
 .bg-dark-purple {
@@ -172,6 +172,11 @@ ol li {
   font-weight: var(--regular-body);
 }
 
+::selection {
+  background-color: #d81e5b;
+  color: white;
+}
+
 /*======================================= Nav & NavBar ================================*/
 .dropdown-menu {
   border: none !important;
@@ -253,7 +258,7 @@ ol li {
 .btn:hover,
 .btn:active,
 .btn:focus {
-  font-family: "Nunito" !important;
+  font-family: "Karla" !important;
   border: none !important;
   border-radius: var(--main-border-radius) !important;
   transition: all 0.3s ease-in-out;
@@ -269,7 +274,7 @@ ol li {
   object-fit: contain;
 }
 .video-container {
-  width: 100%;
+  lightwidth: 100%;
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
