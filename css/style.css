@@ -28,13 +28,13 @@
   --overlay-light: rgba(180, 179, 179, 0.2);
   --overlay-linear-red: linear-gradient(
     to right,
-    rgba(255, 65, 109, 0.8),
-    rgba(255, 72, 40, 0.8)
+    rgba(255, 65, 109, 0.7),
+    rgba(255, 72, 40, 0.7)
   );
   --overlay-linear-blue: linear-gradient(
     to right,
-    rgba(65, 132, 255, 0.8),
-    rgba(40, 212, 255, 0.8)
+    rgba(65, 132, 255, 0.7),
+    rgba(40, 212, 255, 0.7)
   );
 
   --linear-orange: linear-gradient(to right, #f5af19, var(--red-orange-color));
@@ -192,6 +192,18 @@ ol li {
   font-size: 30px;
 }
 
+.preloader {
+  width: var(--full-width);
+  height: var(--full-height);
+  margin: var(--zero-margin);
+  padding: var(--zero-padding);
+  background-color: white;
+  z-index: 3000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 /*================================ Jumbotron ================================*/
 .jumbotron {
   width: var(--full-width);
@@ -200,12 +212,29 @@ ol li {
   padding: var(--zero-padding) !important;
   border: none !important;
   border-radius: var(--main-border-radius) !important;
-  background-image: url("https://scontent.flos5-1.fna.fbcdn.net/v/t31.0-8/22499006_1711248832233392_8132665442572220634_o.png?_nc_cat=0&oh=cd0a91f88b98ae50648bcebd04a9c2c8&oe=5C36F8CF");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/*========================================== Jumbotron Images =========================*/
+.hero {
+  background-image: url("https://scontent.fabv3-1.fna.fbcdn.net/v/t1.0-9/32959729_1942795572412049_681440438896295936_n.jpg?_nc_cat=110&_nc_eui2=AeHGo1o29e2u4wBgU73L5kWsAygJxyrQ7X2r2KzouDej4ef9K5g6FgY4FjBaQ6PAfgwwOjc9hWn6GkrIrThrCCh6Dp1KpKYOB4QTjYc7xuj4kQ&oh=b5b149a0877e030218b7e59e3d99adf7&oe=5C5C462A");
+}
+.about-jumbo {
+  background-image: url("https://scontent.fabv3-1.fna.fbcdn.net/v/t1.0-9/33306080_1942756345749305_3698469649382375424_n.jpg?_nc_cat=100&_nc_eui2=AeFle8VHthj0L21wW6vQqy2q6adsyuYFn57PLgIRU79U45KYN9dyfgnOxvmrY2K4kD8oDcnYqHnGIZQ3yPmAqFu5GcjDfblXG2G75Sedx_bzKw&oh=8de087353f9bcced9c7ff11da435e857&oe=5C243C3D");
+}
+.project-jumbo {
+  background-image: url(../img/exousia-auditorium.jpg);
+}
+.give-jumbo {
+  background-image: url("https://images.unsplash.com/photo-1533234944761-2f5337579079?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f2fcfe9bb2d39f05237c7586902cddcb&auto=format&fit=crop&w=750&q=80");
+}
+.contact-jumbo {
+  background-image: url("https://images.unsplash.com/photo-1527067669193-6a36380de229?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=075d07fb2cee915ef07dee0d73cbdd54&auto=format&fit=crop&w=636&q=80");
+}
+
 .section {
   width: var(--full-width);
   margin: var(--zero-margin) !important;
@@ -274,7 +303,7 @@ ol li {
   object-fit: contain;
 }
 .video-container {
-  lightwidth: 100%;
+  width: 100%;
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
