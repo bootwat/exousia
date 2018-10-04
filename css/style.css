@@ -228,11 +228,17 @@ ol li {
 .project-jumbo {
   background-image: url(../img/exousia-auditorium.jpg);
 }
+.tv-jumbo {
+  background-image: url("https://scontent.fabv3-1.fna.fbcdn.net/v/t31.0-8/22499006_1711248832233392_8132665442572220634_o.png?_nc_cat=110&_nc_eui2=AeGBMTKEdTRP2_GbRVRuYMtEVEMjXVBptxoinm_5JPoHBBEwk8Oom3vDLLqwtuBYugx3EANCmdw_RlYKf5Mwm10YX0zWKZMd0YJ3_qsSpjJsbw&oh=9c7410c24c6361c6bbd124abdba1635c&oe=5C5E85CF");
+}
 .give-jumbo {
   background-image: url("https://images.unsplash.com/photo-1533234944761-2f5337579079?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f2fcfe9bb2d39f05237c7586902cddcb&auto=format&fit=crop&w=750&q=80");
 }
 .contact-jumbo {
   background-image: url("https://images.unsplash.com/photo-1527067669193-6a36380de229?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=075d07fb2cee915ef07dee0d73cbdd54&auto=format&fit=crop&w=636&q=80");
+}
+.faq-jumbo {
+  background-image: url("https://scontent.fabv3-1.fna.fbcdn.net/v/t1.0-9/33348142_1944743698883903_8114818343279525888_n.jpg?_nc_cat=108&_nc_eui2=AeHU5w1M3NT4T0pHIiWCNFLgl5SP291CUDOwwfrzuh5jQ8V6PNGhDXrmy4teF6hkvE5Ebf03FSnnbny45uA5t3K125xFVTjphWVuwYZOpMNKyg&oh=957e8c7ad68ef2565559acbd85e33464&oe=5C17D63C");
 }
 
 .section {
@@ -298,7 +304,7 @@ ol li {
 
 /*============================================= Caurosel Images ================================*/
 .carousel-item img {
-  width: 1500px;
+  width: 1000px;
   height: 433.75px;
   object-fit: contain;
 }
