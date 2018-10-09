@@ -82,7 +82,7 @@
   background: rgba(87, 87, 87);
 }
 .bg-dark-light {
-  background: rgba(87, 87, 87, 0.4) !important;
+  background: rgba(87, 87, 87, 0.7) !important;
 }
 
 /*
@@ -109,10 +109,10 @@
 html,
 body,
 .main-section {
-  width: var(--full-width);
-  height: var(--full-height);
-  margin: var(--zero-margin);
-  padding: var(--zero-padding);
+  width: var(--full-width) !important;
+  height: var(--full-height) !important;
+  margin: var(--zero-margin) !important;
+  padding: var(--zero-padding) !important;
 }
 
 /*============================== Fonts ======================================*/
@@ -342,7 +342,7 @@ ol li {
 
 /*================================= Footer ==================================*/
 .footer {
-  background-image: url(../assets/img/pattern-2.png);
+  background-image: url(../img/pattern-6.png);
 }
 .social-link i {
   font-size: 16px !important;
