@@ -1,7 +1,7 @@
 /* Fonts Import */
 
 /*==================== Heading Text ====================*/
-@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
 
 /*==================== Body Text ====================*/
 @import url("https://fonts.googleapis.com/css?family=Cabin:300:400,500");
@@ -42,7 +42,7 @@
   --linear-purple: linear-gradient(to right, #ff0099, var(--dark-purple-color));
   --linear-blue: linear-gradient(to right, #7f7fd5, #86a8e7, #7575ff);
 
-  --heading-text: "Comfortaa";
+  --heading-text: "Rubik";
   --regular-heading: 400;
   --bold-heading: 700;
 
@@ -123,6 +123,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-text) !important;
+  text-rendering: optimizeLegibility;
 }
 
 p,
@@ -149,6 +150,7 @@ select,
 option {
   font-family: var(--body-text) !important;
   font-size: 13px !important;
+  text-rendering: optimizeLegibility;
 }
 
 a:link,
@@ -307,7 +309,6 @@ ol li {
 .btn:focus {
   font-family: "Karla" !important;
   border: none !important;
-  border-radius: var(--main-border-radius) !important;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
