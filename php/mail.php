@@ -1,6 +1,6 @@
 <?php
 
-$email_to = 'itguru190@gmail.com';
+$email_to = 'info@exousiadoorministry.org';
 $email_subject = $_POST['Subject'];
 
 if(isset($_POST['Email_Address'])) {

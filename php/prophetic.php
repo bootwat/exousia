@@ -1,6 +1,6 @@
 <?php
 
-$email_to = 'itguru190@gmail.com';
+$email_to = 'propheticlive@exousiadoorministry.org';
 $email_subject = "New Prophetic Live Candidate";
 
 if(isset($_POST['email'])) {
